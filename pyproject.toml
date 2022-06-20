@@ -1,0 +1,21 @@
+[project]
+name = "planetaryconjunctions"
+version = "0.1.2"
+authors = [
+  { name="Tony Rice", email="rtphokie@gmail.com" },
+]
+description = "find when visible planets are close to each other in the night sky"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies=[
+    "skyfield>=1.4", "pytz>=2022.1", "pandas>=1.4"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/rtphokie/planetaryconjunctions"
+"Bug Tracker" = "https://github.com/rtphokie/planetaryconjunctions/issues"

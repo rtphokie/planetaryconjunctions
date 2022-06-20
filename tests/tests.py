@@ -1,5 +1,5 @@
 import unittest
-from planetaryconjunctions import main
+from src import main
 from pprint import pprint
 
 
